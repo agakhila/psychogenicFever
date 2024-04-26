@@ -1,0 +1,10 @@
+Package: psychogenicFever
+Type: Package
+Title: "Detecting and Analyzing Psychogenic Fever Patterns"
+Version: 0.1.0
+Author: Akhila Attigadda
+Maintainer: Akhila Attigadda <akhilaattigadda@usf.edu>
+Description: Tools for detecting, analyzing, and visualizing patterns of psychogenic fever in medical data.
+License: GPL-3 License
+Encoding: UTF-8
+LazyData: true
