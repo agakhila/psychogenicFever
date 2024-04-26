@@ -23,23 +23,25 @@ Usage
 
 1. Example usage of functions in the psychogenicFever package
 
-library(psychogenicFever)
+   library(psychogenicFever)
 
 2. Preprocess temperature data
 
-cleaned_data <- preprocess_temperature_data(temperature_data)
+   cleaned_data <- preprocess_temperature_data(temperature_data)
 
 3. Detect fever episodes
 
-fever_episodes <- detect_fever_episodes(temperature_data = cleaned_data, psychological_factors)
+   fever_episodes <- detect_fever_episodes(temperature_data = cleaned_data, psychological_factors)
 
 4. Visualize temperature patterns
 
-visualize_temperature_patterns(fever_episodes, psychological_factors, plot_type = "line")
+   visualize_temperature_patterns(fever_episodes, psychological_factors, plot_type = "line")
 
 5. Conduct statistical analysis
 
-stat_results <- statistical_analysis(fever_episodes, psychological_factors)
+   stat_results <- statistical_analysis(fever_episodes, psychological_factors)
+
+
 
 License
 This package is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
