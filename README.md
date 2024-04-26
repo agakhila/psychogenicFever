@@ -1,4 +1,5 @@
 psychogenicFever R Package
+
 Detecting and Analyzing Psychogenic Fever Patterns
 
 The psychogenicFever R package provides tools for detecting, analyzing, and visualizing patterns of psychogenic fever in medical data. This package is designed to assist researchers and medical professionals in identifying potential episodes of psychogenic fever and exploring their relationship with psychological factors.
