@@ -21,19 +21,19 @@ Check out the vignettes and examples provided in the package to get started with
 
 Usage
 
-# Example usage of functions in the psychogenicFever package
+1 Example usage of functions in the psychogenicFever package
 library(psychogenicFever)
 
-# Preprocess temperature data
+2 Preprocess temperature data
 cleaned_data <- preprocess_temperature_data(temperature_data)
 
-# Detect fever episodes
+3 Detect fever episodes
 fever_episodes <- detect_fever_episodes(temperature_data = cleaned_data, psychological_factors)
 
-# Visualize temperature patterns
+4 Visualize temperature patterns
 visualize_temperature_patterns(fever_episodes, psychological_factors, plot_type = "line")
 
-# Conduct statistical analysis
+4 Conduct statistical analysis
 stat_results <- statistical_analysis(fever_episodes, psychological_factors)
 
 License
